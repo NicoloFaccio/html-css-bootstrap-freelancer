@@ -19,6 +19,6 @@ section.back_color:nth-child(odd) {
     width: 80px;
 }
 
-figure {
+.avatar {
     width: 300px;
 }
