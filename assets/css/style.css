@@ -1,0 +1,11 @@
+header {
+    background-color: rgba(43, 60, 77, 1);
+}
+
+nav > ul li {
+    list-style-type: none;
+}
+
+nav > ul li svg {
+    fill: white;
+}
