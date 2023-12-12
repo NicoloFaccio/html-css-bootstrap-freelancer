@@ -22,3 +22,15 @@ section.back_color:nth-child(odd) {
 .avatar {
     width: 300px;
 }
+
+.back_color_light {
+    background-color: rgba(58, 84, 109, 1);
+}
+
+.color_text {
+    color: rgba(26, 188, 156, 1);
+}
+
+.back_color_dark {
+    background-color: rgba(44, 62, 80, 1);
+}
