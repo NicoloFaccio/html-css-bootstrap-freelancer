@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container-fluid text-white">
-        <nav class="p-2 container-sm d-flex justify-content-between align-items-center">
+        <!-- <nav class="p-2 container-sm d-flex justify-content-between align-items-center">
             <a class="fs-6 text-reset text-decoration-none text-uppercase" href="#">
                 <strong>start bootstrap</strong>
             </a>
@@ -30,7 +30,44 @@
                     <a class="text-reset text-decoration-none" href="#contact">contact</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+              <a class="text-white" href="#">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -111,7 +148,7 @@
                 </div>
             </div>
             
-            <div class="container-sm">
+            <div class="container-sm space">
                 <div class="row text-white row-gap-4">
                     <div class="col-12 col-md-6">
                         Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
@@ -129,10 +166,8 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <section class="p-3 container-fluid">
+        <section class=" back_color p-3 container-fluid">
             <div class="text-uppercase d-flex flex-column align-items-center p-2 container-sm">
                 <h1 id="contact">contact me</h1>
                 <div class="d-flex column-gap-1 align-items-center">
@@ -142,38 +177,21 @@
                 </div>
             </div>
 
-            <div class="container-sm">
-                <form action="">
-                    <input type="text">
-                    <input type="email">
-                    <input type="tel">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="container-sm space">
+                <form action="" class="d-flex flex-column align-items-start">
+                    <input class="py-2 w-100 text-capitalize border-0 border-bottom" type="text" placeholder="name">
+                    <input class="py-2 w-100 text-capitalize border-0 border-bottom" type="email" placeholder="email adress">
+                    <input class="py-2 w-100 text-capitalize border-0 border-bottom" type="tel" placeholder="phone number">
+                    <textarea class="py-2 w-100 text-capitalize border-0 border-bottom" name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <button type="submit" value="Submit" class="my-3 p-2 border-0 rounded back_send">
+                        <a class="text-decoration-none text-white text-capitalize" href="#">send</a>
+                    </button>
                 </form>
-
-                <!-- <div class="text-capitalize p-2 border-bottom">
-                    name
-                </div>
-
-                <div class="text-capitalize p-2 border-bottom">
-                    email adress
-                </div>
-
-                <div class="text-capitalize p-2 border-bottom">
-                    phone number
-                </div>
-
-                <div class="text-capitalize pt-2 pb-4 ps-2 border-bottom">
-                    message
-                </div> -->
-
-                <!-- <div class="text-white text-capitalize pt-3">
-                    <span class="p-2 border rounded-1 back_send">
-                        <a class="text-decoration-none text-reset" href="#">send</a>
-                    </span>
-                </div> -->
             </div>
         </section>
+    </main>
 
+    <footer>
         <section class="container-fluid back_color_light">
             <div class="container-sm p-2">
                 <div class="row text-white">
